@@ -1,3 +1,17 @@
+# launch rtc video - audio flux
+
+- go to /root/webrtc
+- run server :
+- npm start
+
+# get webcam and mic from non HTTPS
+
+- got to Chrome launch chrome://flags/#unsafely-treat-insecure-origin-as-secure
+- add http://77.136.63.106:4000, http://77.136.63.106:4000/broadcast.html
+ > in *Insecure origins treated as secure* input
+- go to page http://77.136.63.106:4000/broadcast.html allow (and choose) caméra and microphone
+- you're ready 🎉
+
 # WebRTC Video/Audio Broadcast
 
 WebRTC PeerToPeer broadcast application that allows the broadcaster to send a video and audio stream to all connected users (watchers).
